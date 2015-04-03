@@ -77,7 +77,7 @@ int hacker(long v)
     v = (v & mask16) + ((v >> 16) & mask16);
     v = (v & mask32) + ((v >> 32) & mask32);
 
-    return (int) v;
+    return v;
 }
 
 int hacker2(long v)
